@@ -25,7 +25,6 @@ app.include_router(router)
 
 @app.get("/", tags=["Health"])
 def root():
-    """Проверка работоспособности API"""
     return {"status": "ok", "message": "CRUD API работает!"}
 
 
