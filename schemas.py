@@ -21,4 +21,4 @@ class ItemResponse(BaseModel):
     updated_at: Optional[datetime]
 
     class Config:
-        from_attributes = True  # Позволяет конвертировать ORM модели
+        from_attributes = True 
